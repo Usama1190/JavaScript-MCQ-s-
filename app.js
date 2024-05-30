@@ -1,6 +1,6 @@
 // Chatgpt JavaScript complex MCQ's (20)
 
-// Question 01 : Which of the following will output 'true'?
+// 01 : Which of the following will output 'true'?
 // const obj = {
 //     a: 'foo',
 //     b: {
@@ -12,6 +12,137 @@
 // console.log(a === 'foo' && c === 'bar');
 
 // a) 'true'  b) 'false'  c) 'undefined'  d) 'TypeError'
+
+
+
+// 02 : What will be logged to the console
+
+// const x = 1;
+
+// function foo() {
+//     console.log(x);    // ReferenceError : cannot access 'x' before initialization
+
+//     const x = 2;
+// }
+
+// foo();
+
+// a. 1    b. 2    c. undefined     d. ReferenceError  *
+
+
+
+// 03 : What will the following code output
+
+// const x = {};
+
+// const y = { foo: 'bar' };
+
+// const z = { foo: 'bar' };
+
+// x[y] = 'baz';
+// x[z] = 'quz';
+
+// console.log(x[y]);
+
+// a. baz      b. quz *   c. undefined    d. TypeError
+
+
+
+// 04 : What will be the output of the following code
+
+// let a = 1;
+
+// let b = { a: 2 };
+
+// let c = b;
+
+// c.a = 3;
+
+// console.log(a, b.a);
+
+// a. 1, 2     b. 1, 3 *    c. 2, 3     d. 1, 1
+
+
+
+// 05 : What will the following code log to the console
+
+// let a = [1, 2, 3];
+
+// let b = [...a];
+
+// b.push(4);
+
+// console.log(a, b);
+
+// a. [1, 2, 3] , [1, 2, 3, 4] *         b. [1, 2, 3, 4] , [1, 2, 3, 4]
+// a. [1, 2, 3] , [1, 2, 3]           d. [1, 2, 3, 4] , [1, 2, 3]
+
+
+
+
+
+// 06 : Which of the following will not throw an error
+
+// let foo = 'bar';
+
+// switch ( foo ) {
+//     case 'bar':
+//         let baz = 'quz';
+//         break;
+
+//     case 'quuz':
+//         console.log(baz);
+//         break;
+// }
+
+// a. it will not throw an error        b. It will throw a ReferenceError
+// c. It will throw a SyntaxError *     d. It will throw a TypeError
+
+
+
+
+
+// 07 : What is the result of the following expression
+
+// console.log(0.1 + 0.2 === 0.3);
+
+// a. true     b. false  *     c. undefined    d. NaN
+
+
+
+
+
+//  08 : What will be logged to the console
+
+// console.log(typeof null);
+
+// a. null    b. undefined     c. object *    d. function
+
+
+
+
+// 09 : Which of the following will output 42
+
+// const obj = {
+//     valueOf: () => 42
+// }
+
+// console.log(+obj);
+
+// a. 42 *    b. NaN      c. TypeError    d. undefined
+
+
+
+
+
+// 10 : 
+
+
+
+
+
+
+
 
 
 
