@@ -1171,14 +1171,140 @@
 
 // 85 : What will be the output of the following code 
 
-let count = 0;
+// let count = 0;
 
-const increment = () => ++count;
+// const increment = () => ++count;
 
-setTimeout(increment, 1000);
+// setTimeout(increment, 1000);
 
-count = 5; 
+// count = 5; 
 
-setTimeout(() => console.log(count), 2000);
+// setTimeout(() => console.log(count), 2000);
 
 // a. 0       b. 1        c. 5      d. 6 *
+
+
+
+
+
+// 86 : What is the result of the following expression
+
+// console.log(NaN === NaN);
+
+// a. true      b. false *       c. undefined       d. TypeError
+
+
+
+
+
+// 87 : What will be the output of the following code 
+
+// function Foo() {}
+
+// const foo = new Foo();
+
+// console.log(Foo.prototype === foo.__proto__);
+
+// a. true *       b. false       c. undefined       d. TypeError
+
+
+
+// 88 : Which of the following methods can be used to copy all enumerable own 
+// properties from one or more source objects to a target object
+
+// a. Object.assing() *     b. Object.copy()      c. Object.clone()      d. Object.merge()
+
+
+
+
+// 89 : Which of the following is true about JavaScript modules (ES6 modules)
+
+// a. Variables declared inside a module are globally scoped 
+// b. A module can only exports one value 
+// c. A module's code is executed only once, the first time it is imported *
+// d. Modules cannot import other modules 
+
+
+
+
+// 90 : What will be the output of the following code 
+
+// const arr = [1, 2, 3];
+
+// const iterator = arr[Symbol.iterator]();
+
+// console.log(iterator.next().value);
+
+// a. 1 *        b. 2          c. 3            d. undefined 
+
+
+
+
+// 91 : What will be the result of the following code 
+
+// let x = 5;
+
+// let y = x++;
+
+// console.log(x, y);
+
+// a. 5, 5       b. 6, 6      c. 5, 6       d. 6, 5 *
+
+
+
+// 92 : What will be the error if the const variable are re-assign
+
+// a. ReferenceError     b. SyntaxError      c. TypeError *      d. ReassignError
+
+
+
+// 93 : What is the purpose of the super keyword in JavaScript classes
+
+// a. To define a super class       b. To call the constructor of a parent class *
+// c. To create a new instance of the class    d. To reference the prototype of the class
+
+
+
+// 94 : Which of the following methods is used to add an element to the end of 
+// an array.
+
+// a. push() *      b. pop()     c. shift()       d. unshift()
+
+
+
+
+// 95 : What will be the output of the following code 
+
+// const foo = () => ( { bar: 1 } );
+
+// console.log(foo());
+
+// a. undefined     b. 1       c. {}       d. { bar: 1 }
+
+
+
+
+// 96 : Which of the following is a way to create a shollow copy of an array
+
+// a. arr.copy()      b. arr.slice() *     c. arr.clone()      d. arr.merge()
+
+
+
+
+// 97 : What will be the output of the following code 
+
+// console.log(typeof function() {});
+
+// a. function *    b. object     c. undefined      d. number
+
+
+
+
+// 98 : Which of the following methods can be used to get an array of a given 
+// object's own enumerable property names
+
+// a. Object.getOwnPropertyName()       b. Object.keys() *
+// c. Object.values()                   d. Object.entries()
+
+// These questions delve into more complex aspects of JavaScript, such as 
+// prototypes, iterators, modules, symbols, and advanced array and object methods.
