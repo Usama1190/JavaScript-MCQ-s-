@@ -347,3 +347,63 @@ d. outer func: this.foo = undefined, outer func: self.foo = undefined,
 // console.log(b);
 
 // a. 3 *        b. undefined       c. ReferenceError       d. TypeError
+
+
+
+/*
+
+A) 3 - b is declared globally.
+
+C) undefined - Variable x is hoisted but not initialized.
+
+B) outer func: this.foo = bar, outer func: self.foo = bar, inner func: 
+   this.foo = undefined, inner func: self.foo = bar - this inside the IIFE 
+   refers to the global object.
+
+D) 5, 5, 5, 5, 5 - i is not captured in the loop.
+
+C) 12 - x++ happens first, then x + 1.
+
+B) number - The second function is invoked.
+
+A) 122 - String concatenation occurs.
+
+B) 1, 21 - "2" - 1 coerces "2" to a number, "2" + 1 results in string 
+   concatenation.
+
+C) undefined - foo is hoisted but not initialized.
+
+C) true, false - == allows type coercion, === does not.
+
+C) 2 - arguments object length is 2.
+
+C) string - foo().bar is "hello".
+
+A) undefined, 2 - a is hoisted but not initialized, foo is hoisted and 
+   defined.
+
+C) undefined, ReferenceError - foo is not a function at the time of call.
+
+D) undefined - Local b shadows the outer b.
+
+A) string - typeof 1 is "number", typeof "number" is "string".
+
+B) false - Due to floating-point precision issues.
+
+C) undefined - delete operator removes foo property.
+
+B) 456 - Objects are coerced to strings when used as keys.
+
+A) {constructor: ƒ} - Function prototype includes the constructor.
+
+A) 1 - x is preserved in the closure.
+
+B) [1, 2, 3] - b still references the original array.
+
+A) [] - Both a and b reference the same array.
+
+B) true, false - 1 < 2 < 3 is true, 3 > 2 > 1 is false.
+
+A) undefined - No value at index 6.
+
+*/
